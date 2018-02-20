@@ -12,5 +12,3 @@ class UnitTests(unittest.TestCase):
 
         response = app.build_response(500)
         self.assertEqual(response, {"status": "error"})
-
-        self.assertEqual(False, {"status": "error"})
